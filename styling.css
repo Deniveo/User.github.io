@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Gabriola, fantasy;
+  background-color: black;
+}
+
+/*img for entire body*/
+#body{
+  background-image: url("http://www.clipartsuggest.com/images/148/photoshop-png-frames-wallpapers-designs-love-frame-K5exwx-clipart.png");
+  background-size: cover;
+  background-position: center;
+
+}
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  font-size: 25px;
+}
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: orange;
+  color: black;
+  text-shadow: 2px -2px 3px black;
+}
+/* Style the content */
+.content {
+  margin-left: 300px;
+  padding-left: 20px;
+  font-size: 29px;
+  color: white;
+  text-shadow: 2px -2px 1px blue;
+}
+.ha{
+  width: 150px;
+  height: 100px;
+  transition: width 5s, height 5s, transform 5s;
+  border-radius: 100px;
+}
+.ha:hover{
+  width: 550px;
+  height: 350px;
+  transform: scale3d(360deg);
+  border-radius: 50,150px;
+  border: 8px;
+  border-style: dotted;
+  border-color: red;
+}
+.ha{
+  margin-left: 550px;
+  margin-right: 550px;
+}
+
+p{
+  text-align: center;
+}
+
+#content{
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  font-size: 27px;
+  font-weight: lighter;
+  text-shadow: 2px -2px 5px black;
+  color: white;
+
+}
+marquee{
+  text-shadow: 3px -3px 5px black;
+
+}
+
+#container{
+    background-image: url("J:/HTML-CSS-Javascript/New folder/New folder/love_heart_3-1366x768.jpg");
+    background-size: cover;
+    background-position: center;
+}
